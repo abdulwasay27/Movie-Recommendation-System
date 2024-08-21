@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-      st.set_page_config(page_title="FilmFusion", page_icon="🎥")
+      st.set_page_config(page_title="Cinema Fusion", page_icon="🎥")
       st.title("Welcome to Cinema Fusion🌟")
     
       st.header("About Cinema Fusion")
