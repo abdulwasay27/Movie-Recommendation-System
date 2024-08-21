@@ -1,1 +1,1 @@
-web: streamlit run 🏠HomePage.py
+web: streamlit run Home Page.py
