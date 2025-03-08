@@ -94,7 +94,7 @@ def fetch_movie_reviews(movie_id):
             st.stop()
 
 model, vectorizer = load_model_and_vectorizer("model.pkl", "vectorizer.pkl")
-movie_name=st.text_input(label="Enter a movie")
+movie_name = st.text_input(label="Enter a movie")
 if movie_name:
     movie_id = fetch_movie_id(movie_name)
     movie_reviews=fetch_movie_reviews(movie_id)

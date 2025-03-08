@@ -1,3 +1,4 @@
 tmdb.env
 __pycache__/
 *.pyc
+jupyter notebooks/
