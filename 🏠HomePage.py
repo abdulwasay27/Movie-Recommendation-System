@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-      st.set_page_config(page_title="FilmFusion", page_icon="🎥")
+      st.set_page_config(page_title="Cinema Fusion", page_icon="🎥")
       st.title("Welcome to Cinema Fusion🌟")
     
       st.header("About Cinema Fusion")
@@ -15,7 +15,7 @@ def main():
 
     **How It Works:**
     1. Navigate to the **Search Menu** using the sidebar.
-    2. Enter a movie title in the search box.
+    2. Enter a movie title in the **FilmFinder search box**.
     3. Explore recommendations based on the movie.
     4. Review sentiment analysis of movie reviews.
 
